@@ -4,10 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "webpack -p",
-    "start": "webpack-dev-server -d",
-    "dev": "webpack-dev-server --inline",
-    "watch": "webpack --watch"
+    "build": "npm run clear -s && webpack --progress",
+    "dev": "webpack-dev-server --history-api-fallback --inline --open",
+    "watch": "webpack --watch",
+    "lint": "eslint ./**/*.js",
+    "clear": "del-cli dist"
   },
   "repository": {
     "type": "git",
@@ -49,6 +50,10 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "core-js": "^3.4.7",
+    "regenerator-runtime": "^0.13.3"
   }
 }

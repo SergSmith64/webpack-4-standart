@@ -15,6 +15,7 @@ body {
 	max-width: $page-width;
 	font-family: $font-family, serif;
 	background-color: #fff89d;
+	margin: 0 auto;
 }
 
 p {
@@ -37,5 +38,5 @@ h2 {
 #wrapper {
 	background-color: #48fd57;
 	width: 1024px;
-	margin: 0 auto;
+	text-align: center;
 }
