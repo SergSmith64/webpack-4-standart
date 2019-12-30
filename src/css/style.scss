@@ -5,14 +5,9 @@
   
 @import 'variables';
   
-* {
-	padding: 0;
-	margin: 0;
-}
-
 body {
 	min-width: 320px;
-	max-width: $page-width;
+	// max-width: $page-width;
 	font-family: $font-family, serif;
 	background-color: #fff89d;
 	margin: 0 auto;
@@ -35,8 +30,8 @@ h2 {
 	padding: 20px;
 	background-color: #8b93ff;
 }
-#wrapper {
-	background-color: #48fd57;
-	width: 1024px;
-	text-align: center;
-}
+// #wrapper {
+// 	background-color: #48fd57;
+// 	width: 1024px;
+// 	text-align: center;
+// }
