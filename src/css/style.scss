@@ -1,9 +1,24 @@
+// @import '~bootstrap/scss/bootstrap';
+
+@import '~bootstrap/scss/bootstrap-grid';
+
+// @import "~bootstrap/sass/functions";
+// @import "~bootstrap/sass/variables";
+// @import "~bootstrap/sass/mixins";
+// @import "~bootstrap/sass/root";
+// @import "~bootstrap/sass/reboot";
+// @import "~bootstrap/sass/type";
+// @import "~bootstrap/sass/grid";
+
+// @import 'bootstrap-custom';
+
+
 @font-face {
 	font-family: 'Roboto';
 	src: url(../fonts/Roboto-Regular.ttf)
   }
   
-@import 'variables';
+@import 'variables-new';
   
 body {
 	min-width: 320px;

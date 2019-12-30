@@ -1,13 +1,14 @@
 import '../img/favicon.ico';
 // import '../css/style.css';
 import '../css/style.scss';
+
+
+
 import {
   moduleOne
 } from './moduleOne';
 
 const helloArr = require('./moduleOne.js');
-
-
 
 class TestClass {
   constructor() {
@@ -17,7 +18,6 @@ class TestClass {
 }
 
 const test = new TestClass();
-
 
 // Пример массива
 console.log(helloArr);
