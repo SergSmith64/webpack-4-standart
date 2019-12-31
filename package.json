@@ -2,7 +2,7 @@
   "name": "webpack-4-standart",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "build": "npm run clear -s && webpack --progress",
     "dev": "webpack-dev-server --history-api-fallback --inline --open",
